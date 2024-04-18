@@ -1,0 +1,49 @@
+.title {
+    text-align: center;
+    margin: 5rem;
+    font-size: 4.8rem;
+  
+    /** TEXT GRADIENT */
+    color: #090a0f;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      #0d2bd5 13%,
+      #b7291b 98%,
+      #bfc414 72%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .todo-form {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todo-input {
+    width: 35%;
+    font-size: 2.4rem;
+    border: 2px solid #2c76ff;
+    border-radius: 11px;
+    padding: 0.8rem 1.2rem;
+    outline: none;
+  }
+  
+  .btn {
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(
+      89deg,
+      rgb(21, 74, 189) 0.1%,
+      rgb(26, 138, 211) 51.5%,
+      rgb(72, 177, 234) 100.2%
+    );
+    cursor: pointer;
+    border-radius: 9px;
+  }
